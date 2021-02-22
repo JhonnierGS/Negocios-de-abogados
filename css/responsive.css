@@ -1,0 +1,248 @@
+@media (max-width: 1300px){
+    .toggle-container{
+        display: none;
+    }
+
+    .featured-container{
+        height: 25%;
+    }
+
+    .slick-next{
+        top: 84%;
+    }
+
+    .slick{
+        width: 180px;
+    }
+
+    .items-img-3 h1{
+        font-size: 20px;
+    }
+
+    .items-img-3 p{
+        margin: 5px;
+    }
+
+    .items-img-4 h1{
+        font-size: 20px;
+    }
+
+    .items-img-4 p{
+        margin: 5px;
+    }
+
+    .items-img-5 h1{
+        font-size: 20px;
+    }
+
+    .items-img-5 p{
+        margin: 5px;
+    }
+    .items-img-6 h2{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 991px){
+    .featured-container{
+        height: 20%;
+    }
+
+    .slick-next{
+        top: 86%;
+    }
+}
+
+@media (max-width: 690px){
+    .header-call{
+        width: 50%;
+    }
+
+    .header-call-us{
+        justify-content: center;
+    }
+
+    .header-call-us img{
+        display: none;
+    }
+
+    .header-menu-list{
+        display: none;
+    }
+
+    .icon-bars{
+        position: fixed;
+        top: 10px;
+        right: 20px;
+        z-index: 8;
+        display: flex;
+    }
+
+    .icon-bars img{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .stickyBars{
+        top: 25px;
+    }
+
+    .header-menu-logo{
+        justify-content: center;
+    }
+
+    .slick{
+        width: 220px;
+    }
+
+    .item-1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
+    }
+
+    .item-2{ 
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    } 
+
+    .item-5{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        margin-left: 5px;
+    }
+
+    .offer-container{
+        height: 950px;
+    }
+
+    .offer-container-img{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 46% 2% 25% 2% 25%;
+        grid-template-rows: 40% 2% 28% 2% 25% 2% 25%;
+    }
+
+    .items-img-1{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .items-img-2{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .items-img-3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    .items-img-4{
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    .items-img-5{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+
+    .items-img-6{
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+
+    .strategic-container-img{
+        display: block;
+        text-align: center;
+    }
+
+    .strategic-container-text{
+        width: 100%;
+        padding: 5px 25px;
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 500px){
+    .header-call-us{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .header-call{
+        height: 55px;
+    }
+
+    .group-title{
+        font-size: 32px;
+    }
+
+    .grup-container-text{
+        width: 100%;
+        display: grid;
+        font-size: 20px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 10% 10% 19% 25% 25%;
+        grid-gap: 10px 0;
+        
+    }
+
+    .item-1{
+        font-size: 20px;
+    }
+    
+    .item-2{
+        font-size: 17px;
+    }
+    
+    .item-3{
+        font-size: 17px;
+    }
+    
+    .item-4{
+        font-size: 17px;
+    }
+
+    .item-5 img{
+        width: 400px;
+    }
+
+    .item-6{
+        font-size: 17px;
+    }
+
+    .strategic-container h1{
+        font-size: 32px;
+    }
+
+    .strategic-container-img{
+        display: block;
+        text-align: center;
+    }
+
+    .strategic-container-text{
+        padding: 5px 0px;
+    }
+}

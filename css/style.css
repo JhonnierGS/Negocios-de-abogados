@@ -22,6 +22,10 @@ body{
     margin: 15px 25px;
     cursor: pointer;
 }
+
+.icon-bars{
+    display: none;
+}
  /* section navigation */
 .navigation-container{
     position: fixed;
@@ -35,6 +39,21 @@ body{
     z-index: 6;
 }
 
+.closebtn{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.closebtn:hover{
+    color: #211d1d;
+}
+
 .navigation.active{
     width: 300px;
 }
@@ -42,6 +61,10 @@ body{
 .navigation-content{
     color: white;
     text-align: center;
+}
+
+.navigation-content p{
+    font-size: 18px;
 }
 
 .filed-name input{
@@ -58,7 +81,7 @@ body{
 
 .button button{
     border: none;
-    margin-top: 30px;
+    margin-top: 20px;
     color: white;
     background: #05497a;
     width: 150px;
@@ -77,6 +100,7 @@ body{
     right: -150px;
     display: flex;
     transform: rotate(90deg);
+    transition: 0.5s;
     z-index: 7;
 }
 
@@ -87,6 +111,11 @@ body{
     background: #05497a;
     text-align: center;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.toggle-one:hover{
+    background: black;
 }
 
 .toggle-two{
@@ -418,6 +447,7 @@ body{
     background-color: rgba(33, 29, 29, .6);
     margin: 0;
     padding: 0;
+    
 }
 
 .items-img-1 h1{
@@ -478,11 +508,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    
 }
 
 .items-img-3 h1{
     color: white;
     margin: 0px 0;
+    
 }
 
 .items-img-3 p{
@@ -652,6 +684,4 @@ body{
 .footer a:hover{
     color: grey;
 }
-
-
 

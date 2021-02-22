@@ -6,11 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"><body>
-        <title>Negocios de abogados</title>
+        <link rel="stylesheet" href="css/responsive.css">
+            <title>Negocios de abogados</title>
     </head>
     <body>
-        <section class="toggle-container">
-            <div class="toggle-one" onclick=toggleMenu()>
+        <section class="toggle-container" id="lateral-nav">
+            <div class="toggle-one" onclick="openMenu()">
                 <p>Contacto</p>
             </div>
             <div class="toggle-two">
@@ -20,9 +21,10 @@
                 <a href=""><img src="icons/linkedin-brands.svg" alt="" width="20px" height="20px"></a>
             </div>
         </section>
-        <section class="navigation-container">
+        <section class="navigation-container"  id="menu">
+            <div class="closebtn" onclick="closeMenu()">&times;</div>
             <div class="navigation-content">
-                <h2>Comencemos con su consulta confidencial</h2>
+                <p>Comencemos con su consulta confidencial</p>
                 <div class="filed-name">
                     <p>Nombre</p>
                     <input type="text" placeholder="Name" required>
@@ -49,6 +51,9 @@
             <div class="header-call-us">
                 <p>LLAMANOS AHORA 777-777-7777</p>
                 <img src="icons/search-solid.svg" alt="">
+            </div>
+            <div class="icon-bars" id="bars">
+                <img src="icons/bars-solid.svg" alt="">
             </div>
         </header>
 
@@ -160,7 +165,7 @@
                 </div>
 
                 <div class="item-2">
-                <p><strong>Lawyer Group es un galardonado * bufete de abogados de familia de Vancouver</strong></p>
+                <p><strong>Lawyer Group es un galardonado  bufete de abogados de familia de Vancouver</strong></p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam fugiat magnam eum incidunt provident facere commodi labore, consequatur perspiciatis odio sint necessitatibus consectetur iste vel blanditiis molestias dolores animi reprehenderit saepe cum asperiores cupiditate. Consequuntur.</p>
                 </div>
                 <div class="item-3">
